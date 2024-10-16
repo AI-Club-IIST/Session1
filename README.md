@@ -1,6 +1,62 @@
 # Session1
 
+### Supply Chain Management and Analytics Project[Domain Knowledge]
+#### Overview
+Welcome to this repository! This README provides an overview of the work and research focused on Supply Chain Management (SCM) and Supply Chain Analytics (SCA). It outlines key concepts, methodologies, and tools used to enhance efficiency and decision-making in supply chains.
 
+#### Key Topics in Supply Chain Management (SCM)
+## What is Supply Chain Management?
+Supply Chain Management involves the planning and management of all activities involved in sourcing, procurement, conversion, and logistics management. It encompasses the coordination and collaboration with channel partners, which can include suppliers, intermediaries, third-party service providers, and customers.
+
+## Key Components of SCM
+### Procurement: Sourcing materials and services to meet production needs.
+### Logistics: Managing the movement of goods and services from point of origin to end consumers.
+### Inventory Management: Overseeing inventory levels to balance supply and demand.
+### Demand Forecasting: Predicting future customer demand using historical data and analytics.
+Key Topics in Supply Chain Analytics (SCA)
+## What is Supply Chain Analytics?
+Supply Chain Analytics refers to the use of data analysis and modeling techniques to improve decision-making in supply chain processes. It leverages data to identify patterns, trends, and insights that drive performance improvement.
+
+### Key Techniques in SCA
+#### Descriptive Analytics: Understanding historical data to inform decision-making.
+#### Predictive Analytics: Using statistical models and machine learning to forecast future trends and behaviors.
+#### Prescriptive Analytics: Recommending actions based on data insights to optimize operations.
+## Key Performance Indicators (KPIs) for Supply Chain Analytics
+KPIs are critical metrics used to assess the efficiency and effectiveness of supply chain processes. Key KPIs include:
+
+### Order Fulfillment Rate: Percentage of customer orders delivered on time.
+### Inventory Turnover Ratio: Measures how often inventory is sold and replaced over a period.
+### Supply Chain Cost as a Percentage of Sales: Evaluates the total supply chain cost relative to sales.
+### Perfect Order Rate: Percentage of orders delivered without any issues (on time, complete, and undamaged).
+
+## Tools for Supply Chain Analytics
+Here are some commonly used tools and technologies for conducting supply chain analytics:
+
+Programming Languages: Python, R
+Data Analysis Libraries: pandas, NumPy, SciPy
+Visualization Tools: Tableau, Power BI, matplotlib, seaborn
+Database Management: SQL, NoSQL databases
+
+## Datasets for Supply Chain Analytics
+The following datasets are useful for conducting supply chain analytics:
+
+Inventory Data: Records of stock levels, order histories, and product details.
+Sales Data: Historical sales transactions to analyze demand trends.
+Supplier Performance Data: Metrics on supplier delivery times, quality, and cost.
+Transportation Data: Information on shipping routes, costs, and transit times.
+
+#### Example Datasets
+UCI Machine Learning Repository: Supply Chain Data
+Kaggle: Supply Chain Datasets
+Government Open Data on Transportation
+
+## Conclusion
+This repository serves as a resource for understanding the principles of Supply Chain Management and Analytics. By leveraging data and analytics, organizations can enhance their supply chain performance and achieve strategic goals.
+
+# Session 2
+Time series Analysis by Rashi Jain
+
+# Session 3
 ## Kirti Mandloi (Optimization in SCM)
    - Indore Institute of Science and Technology AIML student
    - www.linkedin.com/in/kirti-mandloi-293a56257
