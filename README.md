@@ -1,117 +1,137 @@
 # Session1
 
 
-# Kirti Mandloi's Supply Chain Management (SCM), Supply Chain Analytics (SCA) and Optimization in SCM
+## Kirti Mandloi (Optimization in SCM)
+   - Indore Institute of Science and Technology AIML student
+   - www.linkedin.com/in/kirti-mandloi-293a56257
+   - github.com/kirtimandloi
+     
+# Supply Chain Management (SCM), Supply Chain Analytics (SCA) and Optimization in SCM
 
-Welcome to the repository! This README provides an in-depth look at the work and research we have been focusing on within the field of Supply Chain Management (SCM) and Supply Chain Analytics and Optimization. Below is a summary of key areas covered in the project, including optimization techniques, problem-solving strategies, and project workflow.
+Welcome to this repository! This README provides an overview of the work and research focused on Supply Chain Management (SCM), Supply Chain Analytics (SCA), and various optimization techniques. Below is a summary of the key areas, including the methods used, problem-solving approaches, and the general workflow for projects.
 
 ## Key Topics in Supply Chain Management and Analytics
 
 ### 1. **Optimization Techniques in Supply Chain Design**
    - Focus on procurement, logistics, and inventory management.
-   - Explored techniques include:
-     - **Deterministic Optimization**: Assumes that all parameters are known with certainty.
-     - **Stochastic Optimization**: Deals with uncertain variables, e.g., demand or supply lead times.
-     - **Robust Optimization**: Focuses on creating solutions that perform well under varying conditions.
-   - These methods help businesses streamline operations, reduce costs, and mitigate risks.
+   - Techniques explored include:
+     - **Deterministic Optimization**: Known parameters.
+     - **Stochastic Optimization**: Deals with uncertain variables.
+     - **Robust Optimization**: Solutions that work under varying conditions.
+   - These methods streamline operations, reduce costs, and mitigate risks.
 
 ### 2. **Linear and Integer Programming**
-   - **Linear Programming (LP)**: Solved using Simplex and Dual Simplex methods, crucial for capacity planning and production scheduling.
-   - **Integer Programming (IP)**: Explored Pure and Mixed Integer Linear Programming using Branch and Bound methods.
-   - These techniques are pivotal in optimizing resource allocation in supply chains, minimizing operational costs.
+   - **Linear Programming (LP)**: Solving capacity planning and production scheduling using Simplex and Dual Simplex methods.
+   - **Integer Programming (IP)**: Pure and Mixed Integer Programming with Branch and Bound methods.
+   - These techniques optimize resource allocation and minimize costs.
 
 ### 3. **Network Design**
-   - Tackled **Shortest Path Problems** and **Network Flow Problems**.
-   - Optimizing logistics and distribution, ensuring faster and more cost-effective delivery.
+   - **Shortest Path Problems** and **Network Flow Problems** for optimizing logistics and distribution.
 
 ### 4. **Heuristic and Metaheuristic Methods**
-   - **Heuristic Methods**: Techniques like Greedy and Local Search for supply chain solutions.
-   - **Metaheuristic Techniques**: Includes Genetic Algorithms, Simulated Annealing, Tabu Search, and Ant Colony Optimization.
-   - These methods enable quick and practical solutions to complex supply chain problems, balancing cost, time, and resources.
+   - **Heuristic Methods**: Techniques like Greedy and Local Search.
+   - **Metaheuristic Techniques**: Genetic Algorithms, Simulated Annealing, Tabu Search, and Ant Colony Optimization for complex supply chain problems.
 
 ### 5. **Advanced Optimization Techniques**
-   - **Simulation-Based Optimization**: Involves Discrete Event Simulation and Monte Carlo Simulation for real-world scenario analysis.
-   - **Stochastic Programming**: Two-Stage and Multi-Stage models to manage uncertainty in supply and demand.
-   - **Robust Optimization**: Applied to capacity planning under uncertain conditions.
-   - **Multi-Criteria Optimization**: Techniques such as Pareto Efficiency and Trade-Off Analysis ensure balanced solutions for conflicting objectives.
+   - **Simulation-Based Optimization**: Discrete Event and Monte Carlo Simulation.
+   - **Stochastic Programming**: Two-Stage and Multi-Stage models.
+   - **Multi-Criteria Optimization**: Pareto Efficiency and Trade-Off Analysis for balanced solutions.
+
+### Links you can refer to gain more knowledge
+
+   - https://en.wikipedia.org/wiki/Supply_chain_optimization
+   - https://www.sap.com/resources/supply-chain-optimization
+   - https://www.ibm.com/topics/supply-chain-optimization
+   - https://www.oracle.com/in/scm/supply-chain-optimization/
+   - https://www.easyship.com/blog/supply-chain-optimization
+   - https://www.investopedia.com/terms/s/scm.asp
+   - https://throughput.world/blog/supply-chain-optimization/
 
 ## Workflow for Projects
 
-### General Workflow
-Each project follows a systematic workflow to ensure consistency and thorough analysis. The typical steps include:
+Each project follows a systematic workflow:
+
 1. **Project Scoping and Objective Setting**
-2. **Dataset Creation**: Generated synthetic datasets using Python libraries or Excel.
+2. **Dataset Creation**: Using Python libraries or Excel.
 3. **Data Preprocessing**
-4. **Data Analysis**: Identified patterns and trends using Exploratory Data Analysis (EDA).
-5. **Visualization and Reporting**: Created dashboards using tools like Tableau, Power BI, or Python.
-6. **Optimization Operations**: Implemented deterministic and uncertainty-based optimization models.
+4. **Exploratory Data Analysis (EDA)**
+5. **Visualization and Reporting**: Tableau, Power BI, or Python.
+6. **Optimization Models**: Deterministic and uncertainty-based.
 7. **Simulation and Scenario Analysis**
-8. **Second Round of Visualization and Reporting**
+8. **Second Round of Visualization**
 9. **Presentation and Documentation**
 10. **Review and Feedback**
 
 ---
 
-## Dummy Projects Overview
-
-To apply the above techniques, we worked on two key dummy projects:
+## Projects Overview
 
 ### Project 1: Inventory Management
 
 #### Steps:
-1. **Data Generation**: Simulated datasets capturing demand, sales, inventory, and costs over a year.
-2. **Optimization Operations**:
-   - **Economic Order Quantity (EOQ)** and **Reorder Point (ROP)** formulas to optimize inventory levels.
-   - **Safety Stock** and **Frequency of Orders** calculated to prevent stockouts.
-3. **Dashboard Comparison**: Initial vs Optimized dashboards showed significant improvements in stockout rates and cost reductions.
+1. **Data Generation**: Simulated demand, sales, inventory, and costs.
+2. **Optimization Operations**: EOQ, ROP, Safety Stock formulas applied.
+3. **Dashboard Comparison**: Showed improvements in stockout rates and cost reductions.
 
 #### Key Formulas:
 - **EOQ**: 
   \[
   EOQ = \sqrt{\frac{2DS}{H}}
   \]
-  - Where D = Demand rate, S = Ordering cost, H = Holding cost.
-
 - **Reorder Point (ROP)**:
   \[
   ROP = d \times L
   \]
-  - Where d = Average demand, L = Lead time.
-
 - **Safety Stock**: 
   \[
   Safety\ Stock = Z \times \sigma_L
   \]
-  - Where Z = Z-score for service level, \(\sigma_L\) = Standard deviation of demand during lead time.
+
+#### Visualization and Reporting
+
+##### Initial Visualization
+![Initial_inventory](https://github.com/user-attachments/assets/9f7164e5-b929-44d2-aa64-e7936b76166d)
+
+##### Optimized Visualization
+![Optimized_inventory](https://github.com/user-attachments/assets/44356b9d-499b-4195-a0e0-04fc969f12e9)
+
+##### comparison
+![Inventory_comp](https://github.com/user-attachments/assets/345236f0-0c7d-4e9a-a678-65ff710f4f70)
 
 ---
 
 ### Project 2: Production and Distribution Management
 
 #### Overview:
-This project focused on optimizing production and distribution within a supply chain network. The goal was to minimize costs while ensuring that distribution centers receive the required products efficiently.
+Optimized production and distribution in a supply chain network, minimizing costs and ensuring efficient product delivery.
 
-1. **Production Planning**: Determined the optimal quantity of products each plant should produce.
-2. **Distribution Optimization**: Allocated products from plants to distribution centers, minimizing transportation costs and meeting demand requirements.
+1. **Production Planning**: Optimal quantity per plant.
+2. **Distribution Optimization**: Allocating products from plants to distribution centers to minimize transportation costs.
 
-### Mathematical Models Used:
+### Mathematical Models:
 - **Linear Programming** for production cost minimization.
-- **Network Flow Models** to optimize the flow of goods between plants and distribution centers.
+- **Network Flow Models** for optimizing goods flow between plants and distribution centers.
+
+### Visualization and Reporting
+
+##### Initial Visualization
+![Initial_production_distribution](https://github.com/user-attachments/assets/b7296303-62eb-4360-b98d-fd156c7b25a9)
+
+##### Optimized Visualization
+![Optimized_production_distribution](https://github.com/user-attachments/assets/bbe8c0ed-d563-4c2a-b055-288ca227d7c6)
 
 ---
 
 ## Tools and Techniques
 
 - **Programming Languages**: Python
-- **Libraries**: pandas, numpy, matplotlib, seaborn, Faker (for data generation), optimization libraries like `scipy.optimize`.
-- **Visualization**: Tableau, Power BI, Python libraries (matplotlib, seaborn).
+- **Libraries**: pandas, numpy, matplotlib, seaborn, Faker, scipy.optimize.
+- **Visualization**: Power BI
 
 ---
 
 ## Conclusion
 
-Through these projects, I demonstrated a thorough understanding of supply chain management and optimization techniques. Whether tackling deterministic or uncertain variables, the techniques outlined here ensure effective decision-making, cost optimization, and supply chain resilience.
+This repository demonstrates the key concepts of SCM, analytics, and optimization. Techniques like deterministic and stochastic modeling enhance decision-making and supply chain resilience.
 
-Feel free to explore the repository, and if you have any questions, please reach out!
 
-**Kirti Mandloi**
