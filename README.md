@@ -46,6 +46,7 @@ Welcome to this repository! This README provides an overview of the work and res
    - https://www.easyship.com/blog/supply-chain-optimization
    - https://www.investopedia.com/terms/s/scm.asp
    - https://throughput.world/blog/supply-chain-optimization/
+   - you can refer more content in repo (KIRTI MANDLOI's Optimization in SCM)
 
 ## Workflow for Projects
 
