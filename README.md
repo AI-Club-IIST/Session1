@@ -76,17 +76,14 @@ Each project follows a systematic workflow:
 
 #### Key Formulas:
 - **EOQ**: 
-  \[
-  EOQ = \sqrt{\frac{2DS}{H}}
-  \]
+  ![image](https://github.com/user-attachments/assets/b4e2ffdf-4e48-46a9-9f62-1b5c00a2fd4a)
+
 - **Reorder Point (ROP)**:
-  \[
-  ROP = d \times L
-  \]
+  ![image](https://github.com/user-attachments/assets/06d9281e-fdab-49a3-a06c-40d3a950777b)
+
 - **Safety Stock**: 
-  \[
-  Safety\ Stock = Z \times \sigma_L
-  \]
+  ![image](https://github.com/user-attachments/assets/2c53ea4e-0a7c-47cd-8d69-4973d89609dd)
+
 
 #### Visualization and Reporting
 
