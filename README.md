@@ -10,7 +10,7 @@
 
 Welcome to this repository! This README provides an overview of the work and research focused on Supply Chain Management (SCM), Supply Chain Analytics (SCA), and various optimization techniques. Below is a summary of the key areas, including the methods used, problem-solving approaches, and the general workflow for projects.
 
-## Key Topics in Supply Chain Management and Analytics
+## Key Topics in Supply Chain Optimization and Analytics
 
 ### 1. **Optimization Techniques in Supply Chain Design**
    - Focus on procurement, logistics, and inventory management.
