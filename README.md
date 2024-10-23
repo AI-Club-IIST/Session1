@@ -1,4 +1,4 @@
-# Session 1
+# Module 1 
 # Palak Jain [Domain Knowledge of SCA]
    - Indore Institute of Science and Technology AIML student
    - https://www.linkedin.com/in/palak-jain-06a75a218
@@ -61,11 +61,11 @@ The following datasets are useful for conducting supply chain analytics:
 This repository serves as a resource for understanding the principles of Supply Chain Management and Analytics. By leveraging data and analytics, organizations can enhance their supply chain performance and achieve strategic goals.
 
 
-# Seassion2
+# Module 2
    - Indore Institute of Science and Technology AIML student
 #### Time Series Analysis by Rashi jain
 
-# Session3
+# Module 3
 
 ## Kirti Mandloi (Optimization in SCM)
    - Indore Institute of Science and Technology AIML student
